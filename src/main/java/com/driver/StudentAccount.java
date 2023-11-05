@@ -10,4 +10,14 @@ public class StudentAccount extends BankAccount{
         this.institutionName = institutionName;
     }
 
+    public String getInstitutionName() {
+        return institutionName;
+    }
+
+    public String getName() {
+        return super.getName();
+    }
+    public double getMinBalance() {
+        return super.getMinBalance();
+    }
 }

@@ -35,4 +35,15 @@ public class CurrentAccount extends BankAccount{
         tradeLicenseId = validLicenseId.toString();
     }
 
+    public String getTradeLicenseId() {
+        return tradeLicenseId;
+    }
+
+    public String getName() {
+        return super.getName();
+    }
+    public double getMinBalance() {
+        return super.getMinBalance();
+    }
+
 }
